@@ -47,6 +47,8 @@
 			    <IsRenderMod>RENDER_MOD_COLORED_SHADOW</IsRenderMod>
 			    <IsRenderMod>RENDER_MOD_RENDER_TARGET</IsRenderMod>
 			    <IsWearing slot="SHIRT">ITEM_ID_TACTICAL_STEALTH_DEVICE</IsWearing>
+			    <IsWearing slot="SHIRT">ITEM_ID_ENCHANTED_ROBE</IsWearing>
+			    <IsWearing slot="BACKPACK">ITEM_ID_WINGS_OF_INFINITY</IsWearing>
 			    <IsSitting ItemID="ITEM_ID_THEATER_SEAT">true</IsSitting>
 			    <IsZombified>true</IsZombified>
 			    <IsVariableBool name="isMannequin">true</IsVariableBool>
@@ -68,6 +70,8 @@
 		        <IsRenderMod>RENDER_MOD_COLORED_SHADOW</IsRenderMod>
 		        <IsRenderMod>RENDER_MOD_RENDER_TARGET</IsRenderMod>
 		        <IsWearing slot="SHIRT">ITEM_ID_TACTICAL_STEALTH_DEVICE</IsWearing>
+		        <IsWearing slot="SHIRT">ITEM_ID_ENCHANTED_ROBE</IsWearing>
+		        <IsWearing slot="BACKPACK">ITEM_ID_WINGS_OF_INFINITY</IsWearing>
 		        <IsSitting ItemID="ITEM_ID_THEATER_SEAT">true</IsSitting>
 		        <IsZombified>true</IsZombified>
 		        <IsVariableBool name="isMannequin">true</IsVariableBool>
