@@ -599,9 +599,6 @@
 					<SpriteRender name="s_water_foot1" offset="-0,-12" alignmentLeft="LEFT_CENTER" alignmentRight="RIGHT_CENTER"/>
 					<SpriteRender name="s_water_foot2" offset="-0,-12" alignmentLeft="RIGHT_CENTER" alignmentRight="LEFT_CENTER"/>
 				</Group>
-				<StopIf>
-					<IsRenderMod>RENDER_MOD_MINI_YOU</IsRenderMod>
-				</StopIf>
 				<SpriteRender name="s_plasma_sprite" offset="14,7" onState="Punch.Yes" blend="PREMULTIPLIED_ALPHA" stretchToTarget="true" alignmentLeft="LEFT_CENTER" alignmentRight="RIGHT_CENTER" drawShadow="false" flip="1,0"/>
 			</Group>
 			<Group onState="Health.SpawnR">
