@@ -230,10 +230,6 @@
     </Data>
     <RenderRules>
         <RenderFaceItem>
-            <StopIf>
-                <IsSitting ItemID="ITEM_ID_THEATER_SEAT">true</IsSitting>
-                <IsRenderMod>RENDER_MOD_MINI_YOU</IsRenderMod>
-            </StopIf>
             <SpriteRender name="Sprite32" blend="NORMAL" alignment="DOWN_CENTER" drawShadow="false" />
             <ContextUpdate type="SetTintFromSlot">
                 <Set name="slot">FACEITEM</Set>
@@ -244,6 +240,10 @@
                 <Set name="seedFG">false</Set>
             </ContextUpdate>
             <SpriteRender name="Sprite9" blend="NORMAL" alignment="DOWN_CENTER" drawShadow="false" />
+            <StopIf>
+              <IsSitting ItemID="ITEM_ID_THEATER_SEAT">true</IsSitting>
+              <IsRenderMod>RENDER_MOD_MINI_YOU</IsRenderMod>
+            </StopIf>
             <Group onState="Punch.No">
                 <ParticleSystemOff name="PS119" />
                 <ParticleSystemOff name="PS343" />
